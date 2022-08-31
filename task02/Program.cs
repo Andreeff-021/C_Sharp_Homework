@@ -7,11 +7,16 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-if(numberA > numberB)
-{
-    Console.WriteLine($"{numberA} > {numberB}");
-}
+if(numberA != numberB)
+    if(numberA > numberB)
+    {
+        Console.WriteLine($"{numberA} > {numberB}");
+    }
+    else
+    {
+        Console.WriteLine($"{numberB} > {numberA}");
+    }
 else
 {
-    Console.WriteLine($"{numberB} > {numberA}");
+    Console.WriteLine("Введите неравные числа!");
 }
