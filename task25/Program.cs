@@ -21,5 +21,5 @@ int PowerNumber(int a, int b)
 
 int numberA = ReadNumber("Введите число A: ");
 int numberB = ReadNumber("Введите возводимую степнь B: ");
-int PowerNumberA = PowerNumber(numberA, numberB);
-Console.WriteLine($"{numberA} в степени {numberB} равно {PowerNumberA}");
+int powerNumberA = PowerNumber(numberA, numberB);
+Console.WriteLine($"{numberA} в степени {numberB} равно {powerNumberA}");
