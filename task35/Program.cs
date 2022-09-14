@@ -11,7 +11,7 @@ int[] GetArray(int size, int leftRange, int rightRange)
     Random rand = new Random();
     for (int i = 0; i < size; i++)
     {
-        arr[i] = rand.Next(leftRange, rightRange);
+        arr[i] = rand.Next(leftRange, rightRange + 1);
     }
     return arr;
 }
